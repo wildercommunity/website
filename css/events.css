@@ -1,0 +1,79 @@
+.home-content__main {
+  padding-top: 70px;
+  transition: none;
+}
+
+.header-title {
+  padding-top: 70px;
+}
+
+.home-content__buttons {
+  padding-top: 0.5rem;
+}
+
+.home-content {
+  padding-bottom: 5rem;
+}
+.name {
+  color:#6f9825;
+  font-family: "montserrat-medium", sans-serif;
+  font-size:12pt;
+}
+
+.s-services {
+  padding-top: 4rem;
+}
+
+.services-list .service-icon {
+  color: #000000;
+  margin-top: -.6rem;
+  margin-left: 8rem;
+  margin-right: 1rem;
+}
+
+.services-list .service-item {
+  margin-bottom: 2rem;
+}
+
+.serviceslist .service-item .btn-video {
+  margin-right: 50rem;
+}
+
+.home-content__buttons .btn-dark {
+  border-color: #000000;
+  color: black;
+  background-color: white;
+}
+
+.home-content__buttons .btn-dark:hover {
+  background-color: black !important;
+  border-color: #fff;
+  color: white;
+}
+
+.services-list .service-item:nth-child(2n+2) {
+  padding-left: 0px;
+}
+
+.services-list .service-item h3 {
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  font-size: 25px;
+}
+
+.label {
+  font-size: 15pt;
+}
+
+.centered {
+  text-align:center;
+}
+
+.noanimations {
+  /*CSS transitions*/
+  transition-property: none !important;
+  /*CSS transforms*/
+  transform: none !important;
+  /*CSS animations*/
+  animation: none !important;
+}
